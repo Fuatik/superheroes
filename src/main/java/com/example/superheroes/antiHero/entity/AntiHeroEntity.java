@@ -16,7 +16,7 @@ import java.util.UUID;
 @Table
 @AllArgsConstructor
 @NoArgsConstructor
-@RedisHash("AntiHero")
+//@RedisHash("AntiHero")
 public class AntiHeroEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "UUID")
