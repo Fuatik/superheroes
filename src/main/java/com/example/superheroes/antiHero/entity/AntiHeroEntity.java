@@ -29,5 +29,6 @@ public class AntiHeroEntity {
     private String lastName;
     private String house;
     private String knownAs;
-    private String createdAt = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss z").format(new Date());
+    private String createdAt = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss z")
+            .format(new Date());
 }

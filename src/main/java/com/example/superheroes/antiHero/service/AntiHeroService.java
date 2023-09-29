@@ -36,9 +36,10 @@ public class AntiHeroService {
     }
 
     private AntiHeroEntity findOrThrow(final UUID id) {
-        return repo.findById(id).orElseThrow(
-                () -> new NotFoundException("Anti-hero by id " + id + " was not found")
-        );
+        return repo.findById(id)
+                .orElseThrow(
+                        () -> new NotFoundException("Anti-hero by id " + id + " was not found")
+                );
     }
 
 }
