@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Configuration>
     <Appenders>
         <Console name="Console" target="SYSTEM_OUT">
@@ -31,4 +31,5 @@
 
         <Logger name="com.example" level="trace"></Logger>
     </Loggers>
+
 </Configuration>
