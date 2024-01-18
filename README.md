@@ -4,7 +4,7 @@
 
 -------------------------------------------------------------
 - Backend: [JDK 21](http://jdk.java.net/17/), Spring Boot 3.x, Lombok, H2, Caffeine Cache, SpringDoc OpenApi 2.x, JWT
-- Frontend: Angular 16, NgRxm Cypress
+- Frontend: Angular 16, NgRx, Cypress
 -----------------------------------------------------
 [REST API documentation](/swagger-ui-rest.html)
 Credentials:
